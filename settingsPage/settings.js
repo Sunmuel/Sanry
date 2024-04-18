@@ -40,3 +40,8 @@ document.querySelector('.js-friends-button')
     .addEventListener('click', () => {
         window.location.href = "../friendsPage/friends.html";
     })
+
+document.querySelector('.js-notes-button')
+    .addEventListener('click', () => {
+        window.location.href = "../notesPage/notes.html";
+    })

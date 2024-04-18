@@ -30,12 +30,7 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.js-search-bar-container {
-    position: relative;
-}
-
 #search-bar-rectangle-top {
-    position: absolute;
     width: 1630px;
     height: 60px;
     background-color: rgb(25, 25, 25);

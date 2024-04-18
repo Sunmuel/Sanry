@@ -13,6 +13,11 @@ document.querySelector('.js-friends-button')
         window.location.href = "../friendsPage/friends.html";
     })
 
+document.querySelector('.js-notes-button')
+    .addEventListener('click', () => {
+        window.location.href = "../notesPage/notes.html";
+    })
+
 document.querySelector('.js-search-button')
     .addEventListener('click', () => {
         document.querySelector('.js-search-bar-container')

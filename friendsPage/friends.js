@@ -13,6 +13,11 @@ document.querySelector('.js-perfil-button')
         window.location.href = "../perfilPage/perfil.html";
     })
 
+document.querySelector('.js-notes-button')
+    .addEventListener('click', () => {
+        window.location.href = "../notesPage/notes.html";
+    })
+
 const backGroundColor = localStorage.getItem('backGroundColor');
 
 if (backGroundColor === 'Black') {
