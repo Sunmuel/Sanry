@@ -1,7 +1,16 @@
 body {
-    background-color: rgb(25, 25, 25);
+    background-color: white;
+    color: rgb(15, 15, 15);
+}
+
+.black-background {
+    background-color: rgb(15, 15, 15);
     color: white;
-    font-family: Arial;
+}
+
+.white-background {
+    background-color: white;
+    color: rgb(15, 15, 15);
 }
 
 .logo-image {
@@ -21,14 +30,25 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+.js-search-bar-container {
+    position: relative;
+}
+
+#search-bar-rectangle-top {
+    position: absolute;
+    width: 1630px;
+    height: 60px;
+    background-color: rgb(25, 25, 25);
+    border-radius: 40px;
+    margin-left: 230px;
+}
+
 #side-bar-left {
     width: 200px;
     height: 680px;
     background-color: rgb(25, 25, 25);
     border-radius: 40px;
     margin-left: 10px;
-    margin-top: 10px;
-    border-color: black;
 }
 
 .home-button:hover,
