@@ -234,14 +234,16 @@ body {
     margin-bottom: 5px;
     font-size: 15px;
 }
-
-/* .Black {
+ .Black {
     color: white;
     background-color: rgb(25, 25, 25);
     border-radius: 30px;
     border-style: solid;
     cursor: pointer;
     border-color: black;
+    margin-left: 1040px;
+    top: -770px;
+    position: relative;
 }
 .White {
     color: Black;
@@ -251,16 +253,7 @@ body {
     border-color: white;
     cursor: pointer;
     border-color: black;
+    margin-left: 0px;
+    top: -770px;
+    position: relative;
 }
-.colorSelectedBlack {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: white;
-    border-color: black;
-    border-radius: 10px;
-}
-.colorSelectedWhite {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: black;
-    border-color: black;
-    border-radius: 10px;
-} */
