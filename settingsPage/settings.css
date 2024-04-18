@@ -1,7 +1,15 @@
 body {
+    transition: background-color 0.5s ease;
+}
+
+.black-background {
     background-color: rgb(15, 15, 15);
     color: white;
-    font-family: Arial;
+}
+
+.white-background {
+    background-color: white;
+    color: rgb(15, 15, 15);
 }
 
 .logo-image {
@@ -252,7 +260,7 @@ body {
     margin-bottom: 5px;
     font-size: 15px;
 }
- .Black {
+ .black-appearence-button {
     color: white;
     background-color: rgb(25, 25, 25);
     border-radius: 30px;
@@ -262,7 +270,7 @@ body {
     position: relative; 
     left: 185px;
 }
-.White {
+.white-appearence-button {
     color: Black;
     background-color: White;
     border-radius: 30px;

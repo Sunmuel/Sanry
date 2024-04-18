@@ -12,3 +12,13 @@ document.querySelector('.js-perfil-button')
     .addEventListener('click', () => {
         window.location.href = "../perfilPage/perfil.html";
     })
+
+const backGroundColor = localStorage.getItem('backGroundColor');
+
+if (backGroundColor === 'Black') {
+    document.body.classList.add('black-background');
+    document.body.classList.remove("white-background"); 
+} else if (backGroundColor === 'White') {
+    document.body.classList.add('white-background');
+    document.body.classList.remove("black-background");
+}

@@ -13,8 +13,25 @@ document.querySelector('.js-friends-button')
         window.location.href = "../friendsPage/friends.html";
     })
 
-const backgroundcolor = localStorage.getItem('backgroundColor');
+document.querySelector('.js-search-button')
+    .addEventListener('click', () => {
+        document.querySelector('.js-search-bar-container')
+            .innerHTML = `
+                <div id="search-bar-rectangle-top">
+                    <div class="search-bar-container">
+                        <input class="search-bar-input" type="text">
+                        <button class="search-button"></button>
+                    </div>
+                </div>
+            `;
+    });
 
-if(backgroundcolor) {
-    document.body.style.backgroundColor = backgroundcolor;
+const backGroundColor = localStorage.getItem('backGroundColor');
+
+if (backGroundColor === 'Black') {
+    document.body.classList.add('black-background');
+    document.body.classList.remove("white-background"); 
+} else if (backGroundColor === 'White') {
+    document.body.classList.add('white-background');
+    document.body.classList.remove("black-background");
 }

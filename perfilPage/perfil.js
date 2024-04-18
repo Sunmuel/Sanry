@@ -13,8 +13,12 @@ document.querySelector('.js-friends-button')
         window.location.href = "../friendsPage/friends.html";
     })
 
-const backgroundcolor = localStorage.getItem('backgroundColor');
+const backGroundColor = localStorage.getItem('backGroundColor');
 
-if(backgroundcolor) {
-    document.body.style.backgroundColor = backgroundcolor;
+if (backGroundColor === 'Black') {
+    document.body.classList.add('black-background');
+    document.body.classList.remove("white-background"); 
+} else if (backGroundColor === 'White') {
+    document.body.classList.add('white-background');
+    document.body.classList.remove("black-background");
 }
