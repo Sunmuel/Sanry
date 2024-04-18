@@ -30,6 +30,19 @@ body {
     border-color: black;
 }
 
+#first-bar-of-middle {
+    width: 505px;
+    height: 200px;
+    background-color: rgb(25, 25, 25);
+    border-radius: 40px;
+    margin-left: 500px;
+    margin-top: 10px;
+    border-color: black;
+    position: relative;
+    top: -700px;
+    left: 200px;
+}
+
 .home-button:hover,
 .search-button:hover,
 .friends-button:hover,
@@ -66,6 +79,11 @@ body {
 
 .upload-button:active {
     background-color: rgb(255, 30, 158);
+}
+
+.ChooseATheme {
+    position: relative;
+    left: 114px;
 }
 
 .home-button {
@@ -241,9 +259,8 @@ body {
     border-style: solid;
     cursor: pointer;
     border-color: black;
-    margin-left: 1040px;
-    top: -770px;
-    position: relative;
+    position: relative; 
+    left: 185px;
 }
 .White {
     color: Black;
@@ -254,6 +271,6 @@ body {
     cursor: pointer;
     border-color: black;
     margin-left: 0px;
-    top: -770px;
     position: relative;
+    left: 185px;
 }
