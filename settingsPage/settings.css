@@ -30,6 +30,19 @@ body {
     border-color: black;
 }
 
+#first-bar-of-middle {
+    width: 505px;
+    height: 200px;
+    background-color: rgb(25, 25, 25);
+    border-radius: 40px;
+    margin-left: 500px;
+    margin-top: 10px;
+    border-color: black;
+    position: relative;
+    top: -700px;
+    left: 200px;
+}
+
 .home-button:hover,
 .search-button:hover,
 .friends-button:hover,
@@ -66,6 +79,11 @@ body {
 
 .upload-button:active {
     background-color: rgb(255, 30, 158);
+}
+
+.ChooseATheme {
+    position: relative;
+    left: 114px;
 }
 
 .home-button {
@@ -234,14 +252,15 @@ body {
     margin-bottom: 5px;
     font-size: 15px;
 }
-
-/* .Black {
+ .Black {
     color: white;
     background-color: rgb(25, 25, 25);
     border-radius: 30px;
     border-style: solid;
     cursor: pointer;
     border-color: black;
+    position: relative; 
+    left: 185px;
 }
 .White {
     color: Black;
@@ -251,16 +270,7 @@ body {
     border-color: white;
     cursor: pointer;
     border-color: black;
+    margin-left: 0px;
+    position: relative;
+    left: 185px;
 }
-.colorSelectedBlack {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: white;
-    border-color: black;
-    border-radius: 10px;
-}
-.colorSelectedWhite {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: black;
-    border-color: black;
-    border-radius: 10px;
-} */
