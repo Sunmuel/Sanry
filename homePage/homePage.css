@@ -41,6 +41,63 @@ body {
     background-color: rgb(25, 25, 25);
     border-radius: 40px;
     margin-left: 230px;
+    position: absolute;
+}
+
+.search-bar-container {
+    display: flex;
+}
+
+.exit-search-bar-button {
+    position: absolute;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    background-color:transparent;
+    left: 1580px;
+    top: 8px;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+.exit-search-bar-button:hover {
+    background-color: rgb(30, 30, 30);
+}
+
+.exit-search-bar-button:active {
+    background-color: rgb(50, 50, 50);
+}
+
+.search-bar-input {
+    position: absolute;
+    cursor: text;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(50, 50, 50);
+    left: 350px;
+    top: 8px;
+    padding-top: 10px;
+    padding-right: 30px;
+}
+
+.search-bar-button {
+    position: absolute;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(255, 0, 128);
+    left: 1020px;
+    top: 8px;
+    padding: 5px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+input[type=text] {
+    font-size: 20px;
+    color: white;
+    padding-left: 20px;
+    padding-bottom: 10px;
 }
 
 #side-bar-left {

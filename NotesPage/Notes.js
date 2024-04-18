@@ -88,3 +88,23 @@ document.querySelector('.js-perfil-button')
     .addEventListener('click', () => {
         window.location.href = "../perfilPage/perfil.html";
     })
+
+document.querySelector('.js-search-button')
+    .addEventListener('click', () => {
+        document.querySelector('.js-search-bar-container')
+            .innerHTML = `
+                <div id="search-bar-rectangle-top">
+                    <div class="search-bar-container">
+                        <input placeholder="Search..." class="search-bar-input" size="57" type="text">
+                        <button class="search-bar-button"><img src="Images/Icons/search.png"></button>
+                        <button class="exit-search-bar-button"><img src="Images/Icons/exit.png"></button>
+                    </div>
+                </div>
+            `;
+
+        document.querySelector('.exit-search-bar-button')
+            .addEventListener('click', () => {
+                document.querySelector('.js-search-bar-container')
+                .innerHTML = '';
+            })
+    });
