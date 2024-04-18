@@ -1,14 +1,14 @@
 document.querySelector('.js-home-button')
     .addEventListener('click', () => {
-        window.location.href = "../Home page/homePage.html";
+        window.location.href = "../homePage/homePage.html";
     })
 
 document.querySelector('.js-settings-button')
     .addEventListener('click', () => {
-        window.location.href = "../Settings page/Settings.html";
+        window.location.href = "../settingsPage/settings.html";
     })
 
 document.querySelector('.js-perfil-button')
     .addEventListener('click', () => {
-        window.location.href = "../Perfil page/Perfil.html";
+        window.location.href = "../perfilPage/perfil.html";
     })

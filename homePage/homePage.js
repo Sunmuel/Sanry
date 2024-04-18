@@ -1,16 +1,16 @@
-document.querySelector('.js-friends-button')
-    .addEventListener('click', () => {
-        window.location.href = "../Friends page/Friends.html";
-    })
-
 document.querySelector('.js-settings-button')
     .addEventListener('click', () => {
-        window.location.href = "../Settings page/Settings.html";
+        window.location.href = "../settingsPage/settings.html";
     })
-    
+
 document.querySelector('.js-perfil-button')
     .addEventListener('click', () => {
-        window.location.href = "../Perfil page/Perfil.html";
+        window.location.href = "../perfilPage/perfil.html";
+    })
+
+document.querySelector('.js-friends-button')
+    .addEventListener('click', () => {
+        window.location.href = "../friendsPage/friends.html";
     })
 
 const backgroundcolor = localStorage.getItem('backgroundColor');
