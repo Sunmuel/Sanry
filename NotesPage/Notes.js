@@ -72,7 +72,10 @@ function keyDown(event) {
 }
 
 
-
+document.querySelector('.js-logo-button')
+    .addEventListener('click', () => {
+        window.location.href = "../homePage/homePage.html";
+    })
 
 document.querySelector('.js-home-button')
     .addEventListener('click', () => {
@@ -108,3 +111,13 @@ document.querySelector('.js-search-button')
                 .innerHTML = '';
             })
     });
+
+const backGroundColor = localStorage.getItem('backGroundColor');
+
+if (backGroundColor === 'Black') {
+    document.body.classList.add('black-background');
+    document.body.classList.remove("white-background"); 
+} else if (backGroundColor === 'White') {
+    document.body.classList.add('white-background');
+    document.body.classList.remove("black-background");
+}

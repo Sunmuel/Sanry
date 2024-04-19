@@ -1,8 +1,15 @@
 body {
+    background-color: white;
+    color: rgb(15, 15, 15);
+}
+.black-background {
     background-color: rgb(15, 15, 15);
     color: white;
-    font-family: Arial;
-    }
+}
+.white-background {
+    background-color: white;
+    color: rgb(15, 15, 15);
+}
 
 .logo-image {
     width: 20%;
