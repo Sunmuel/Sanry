@@ -1,8 +1,3 @@
-document.querySelector('.js-logo-button')
-    .addEventListener('click', () => {
-        window.location.href = "../homePage/homePage.html";
-    })
-
 document.querySelector('.js-home-button')
     .addEventListener('click', () => {
         window.location.href = "../homePage/homePage.html";

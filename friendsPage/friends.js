@@ -13,6 +13,11 @@ document.querySelector('.js-settings-button')
         window.location.href = "../settingsPage/settings.html";
     })
 
+    document.querySelector('.js-notifications-buttona')
+    .addEventListener('click', () => {
+        document.querySelector('.testing-the-div').innerHTML = `<div id="showing-the-square-of-notifications"><p class="TextNotification">No notification for now</p></div>`;
+    })
+
 document.querySelector('.js-perfil-button')
     .addEventListener('click', () => {
         window.location.href = "../perfilPage/perfil.html";

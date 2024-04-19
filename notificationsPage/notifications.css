@@ -100,6 +100,7 @@ input[type=text] {
 .exercises-button:hover,
 .questions-button:hover,
 .notifications-button:hover,
+.notifications-buttona:hover,
 .perfil-button:hover,
 .settings-button:hover {
     background-color:rgb(30, 30, 30);
@@ -119,6 +120,7 @@ input[type=text] {
 .exercises-button:active,
 .questions-button:active,
 .notifications-button:active,
+.notifications-buttona:active,
 .perfil-button:active,
 .settings-button:active {
     background-color:rgb(50, 50, 50);
@@ -238,6 +240,36 @@ input[type=text] {
     padding: 7px;
     margin-bottom: 24px;
     margin-left: 5px;
+}
+.notifications-buttona {
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    background-color:transparent;
+    color: white;
+    padding: 7px;
+    margin-bottom: 24px;
+    left: 1780px;
+    top: -1470px;
+}
+
+#showing-the-square-of-notifications {
+    position: absolute;
+    width: 310px;
+    height: 380px;
+    background-color: rgb(45, 45, 45);
+    border-radius: 40px;
+    top: 47px;
+    left: -250px;
+    border-color: black;
+}
+
+.notificationsInPrincipalSquare {
+    position: relative;
+    left: 94px;
+    top: 10px;
 }
 
 .perfil-button {
