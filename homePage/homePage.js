@@ -91,4 +91,5 @@ if (backGroundColor === 'Black') {
 } else if (backGroundColor === 'White') {
     document.body.classList.add('white-background');
     document.body.classList.remove("black-background");
+    document.querySelector('.js-logo-button').innerHTML = `<img class="logo-image" src="./Images/Logo/Logo white.png">`
 }
