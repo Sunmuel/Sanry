@@ -23,8 +23,16 @@ document.querySelector('.js-notifications-button')
         window.location.href = "../notificationsPage/notifications.html";
     })
 
+let notificationBarActive = false;
+let searchBarActive = false;
+
 document.querySelector('.js-search-button')
     .addEventListener('click', () => {
+        if (notificationBarActive === true) {
+            document.querySelector('.js-notifications-bar-container').innerHTML = '';
+        }
+        searchBarActive = true;
+
         document.querySelector('.js-search-bar-container')
             .innerHTML = `
                 <div id="search-bar-rectangle-top">
@@ -38,10 +46,37 @@ document.querySelector('.js-search-button')
 
         document.querySelector('.exit-search-bar-button')
             .addEventListener('click', () => {
-                document.querySelector('.js-search-bar-container')
-                .innerHTML = '';
+                document.querySelector('.js-search-bar-container').innerHTML = '';
+                searchBarActive = false;
             })
     });
+
+    document.querySelector('.js-questions-button')
+        .addEventListener('click', () => {
+            let notificationReceived = true;
+            if (notificationReceived === true) {
+                if (searchBarActive === true) {
+                    document.querySelector('.js-search-bar-container').innerHTML = '';
+                }
+                notificationBarActive = true;
+        
+                document.querySelector('.js-notifications-bar-container')
+                    .innerHTML = `
+                        <div id="notification-bar-rectangle">
+                            <div class="notification-bar-container">
+                                <button class="go-to-the-notification"></button>
+                                <button class="exit-notification-bar-button"><img src="Images/Icons/exit.png"></button>
+                            </div>
+                        </div>
+                    `;
+        
+                document.querySelector('.exit-notification-bar-button')
+                    .addEventListener('click', () => {
+                        document.querySelector('.js-notifications-bar-container').innerHTML = '';
+                        notificationBarActive = false;
+                    })
+            };
+        })
 
 const backGroundColor = localStorage.getItem('backGroundColor');
 
