@@ -252,7 +252,24 @@ input[type=text] {
     padding: 7px;
     margin-bottom: 24px;
     left: 1780px;
-    top: -750px;
+    top: -1470px;
+}
+
+#showing-the-square-of-notifications {
+    position: absolute;
+    width: 310px;
+    height: 380px;
+    background-color: rgb(45, 45, 45);
+    border-radius: 40px;
+    top: 47px;
+    left: -250px;
+    border-color: black;
+}
+
+.notificationsInPrincipalSquare {
+    position: relative;
+    left: 94px;
+    top: 10px;
 }
 
 .perfil-button {

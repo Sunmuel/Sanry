@@ -65,3 +65,7 @@ document.querySelector('.js-search-button')
                 .innerHTML = '';
             })
     });
+    document.querySelector('.js-notifications-buttona')
+    .addEventListener('click', () => {
+        document.querySelector('.testing-the-div').innerHTML = `<div id="showing-the-square-of-notifications"><p class="TextNotification">No notification for now</p></div>`;
+    })

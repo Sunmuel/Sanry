@@ -355,3 +355,53 @@ left: 10px;
     cursor: pointer;
     padding: 10px;
 }
+.notificationsInPrincipalSquare {
+    position: relative;
+    left: 94px;
+    top: 10px;
+}
+#Storing-Notes {
+    width: 695px;
+    height: 100px;
+    background-color: rgb(25, 25, 25);
+    border-radius: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-color: black;
+    position: relative;
+    left: 500px;
+    top: -700px;
+    padding-bottom: 600px;
+
+}
+#showing-the-square-of-notifications {
+    position: absolute;
+    width: 310px;
+    height: 380px;
+    background-color: rgb(45, 45, 45);
+    border-radius: 40px;
+    top: 47px;
+    left: -250px;
+    border-color: black;
+}
+
+.notificationsInPrincipalSquare {
+    position: relative;
+    left: 94px;
+    top: 10px;
+}
+
+
+.notifications-buttona {
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    background-color:transparent;
+    color: white;
+    padding: 7px;
+    margin-bottom: 24px;
+    left: 1780px;
+    top: -1470px;
+}
