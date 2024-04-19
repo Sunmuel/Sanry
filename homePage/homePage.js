@@ -18,6 +18,11 @@ document.querySelector('.js-notes-button')
         window.location.href = "../notesPage/notes.html";
     })
 
+document.querySelector('.js-notifications-button')
+    .addEventListener('click', () => {
+        window.location.href = "../notificationsPage/notifications.html";
+    })
+
 document.querySelector('.js-search-button')
     .addEventListener('click', () => {
         document.querySelector('.js-search-bar-container')
