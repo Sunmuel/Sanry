@@ -393,7 +393,6 @@ left: 10px;
 
 
 .notifications-buttona {
-    display: flex;
     position: relative;
     cursor: pointer;
     border: none;
@@ -402,6 +401,6 @@ left: 10px;
     color: white;
     padding: 7px;
     margin-bottom: 24px;
-    left: 1780px;
+    left: 1800px;
     top: -1470px;
 }
