@@ -1,6 +1,14 @@
-document.querySelector('.js-notifications-buttona')
+document.querySelector('#notifications-buttona')
     .addEventListener('click', () => {
-        document.querySelector('.testing-the-div').innerHTML = `<div id="showing-the-square-of-notifications"><p class="TextNotification">No notification for now</p></div>`;
+        const _divNotification = document.querySelector('#showing-the-square-of-notifications');
+
+        if (_divNotification.classList.contains("hide")) {
+            document.querySelector('.testing-the-div').innerHTML = `<p class="TextNotification">No notification for now</p><p class="TextNotification">No notification for now</p><p class="TextNotification">No notification for now</p><p class="TextNotification">No notification for now</p><p class="TextNotification">No notification for now</p><p class="TextNotification">No notification for now</p><p class="TextNotification">No notification for now</p>`;
+            _divNotification.classList.remove("hide");
+        }else {
+            _divNotification.classList.add("hide");
+        }
+
     })
 
 document.querySelector('.js-settings-button')

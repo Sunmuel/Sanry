@@ -49,6 +49,22 @@ body {
     top: 47px;
     left: -250px;
     border-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#showing-the-square-of-notifications > p {
+    margin: 5px 0 5px 0;
+    padding: 8px;
+    border: solid 1px red;
+    border-radius: 5px;
+    width: 80%;
+}
+
+.hide {
+    display: none !important;
 }
 
 .notificationsInPrincipalSquare {
@@ -57,6 +73,12 @@ body {
     top: 10px;
 }
 
+.notifications-buttona-container {
+    position: relative;
+    margin-bottom: 24px;
+    left: 1800px;
+    top: -750px;
+}
 
 .notifications-buttona {
     position: relative;
@@ -66,9 +88,6 @@ body {
     background-color:transparent;
     color: white;
     padding: 7px;
-    margin-bottom: 24px;
-    left: 1800px;
-    top: -750px;
 }
 .logo-button {
     border: none;
